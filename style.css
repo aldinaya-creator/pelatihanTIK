@@ -1,20 +1,23 @@
 body {
-    background-color: #800020; /* warna kuning cerah */
+    background-color: #800020; /* warna merah marun */
     font-family: Arial, Times-New-Roman;
     color: #FFFFF
 }
 
 .kartu-profil {
-    width: 300px;
+    width: 500px; /* Diperbesar dari 300px */
     margin: 50px auto;
     padding: 20px;
     background-color: white;
-    border-radius: 15px
+    border-radius: 15px; /* Diperbaiki dari koma menjadi titik koma */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
+    color: black; /* Tambahan agar tulisan terlihat jelas diatas*/
 }
 
 .kartu-profil img {
-    width: 100px;
+    width: 180px; /* Diperbesar dari 100 px */
+    height: 180px; /* Samakan dengan width agar tetap bulat
+    object-fit: cover; /* Agar foto tidak gepeng */
     border-radius: 50%;
 }
